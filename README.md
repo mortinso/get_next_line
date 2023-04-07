@@ -18,7 +18,7 @@ read from a file descriptor._
 
 <br>
 
-## 🛠️ Usage
+## 🛠️ Usage (after downloading)
 
 <!-- ### Requirements
 
