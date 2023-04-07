@@ -1,6 +1,6 @@
 <h1>
 	<p align="center">get_next_line</p>
-	<img align="right" alt="Final Grade: 104/ 100%" src="https://img.shields.io/badge/-%20100%20%2F%20100-success">
+	<img align="right" alt="Final Grade: 100/ 100%" src="https://img.shields.io/badge/-%20100%20%2F%20100-success">
 </h1>
 <p align="center">
 	<b><i>Reading a line from a fd is way too tedious</b></i>
