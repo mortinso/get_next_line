@@ -65,7 +65,7 @@ We were not allowed to use `lseek()` or global variables, so this was a great wa
 
 ## Usage
 > [!WARNING]
-> `get_next_line()` exhibits undefined behavior if the file associated with the `fd` is modified after the last call, while read() has not yet reached the EOF.
+> `get_next_line()` exhibits undefined behavior if the file associated with `fd` is modified after the last call, while `read()` has not yet reached the EOF.
 > It also exhibits undefined behavior when reading a binary file.
 ### Syntax
 ```
