@@ -76,6 +76,8 @@ char *get_next_line(int fd);
 ### Return Value
 - Returns the read line on success.
 - Retuns `NULL` if there's nothing else to read, or if an error occurs.
+> [!WARNING]
+> The line is allocated using `malloc()`, it's your responsibility to free memory properly.
 
 ### Buffer Size
 The buffer size of `read()` can be defined to a custom value at compilation time (Default is 10). Here we set it to 42:
